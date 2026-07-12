@@ -52,10 +52,12 @@ export function Hero() {
             <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96">
               <div className="absolute inset-0 rounded-full border border-primary/20 dark:border-white/10 scale-[1.15]" />
               <div className="absolute inset-0 rounded-full border border-secondary/30 scale-[1.07]" />
-              <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary/10 to-transparent overflow-hidden shadow-xl p-2">
-                <div className="w-full h-full rounded-full bg-muted flex items-center justify-center text-muted-foreground overflow-hidden">
-                  <span className="font-serif italic opacity-50">Photo Area</span>
-                </div>
+              <div className="absolute inset-0 rounded-full overflow-hidden shadow-xl p-2">
+                <img
+                  src="/janashri.jpg"
+                  alt="Janashri"
+                  className="w-full h-full rounded-full object-cover object-top"
+                />
               </div>
             </div>
 
