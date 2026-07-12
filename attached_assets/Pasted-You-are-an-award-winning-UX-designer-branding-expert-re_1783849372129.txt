@@ -1,0 +1,401 @@
+You are an award-winning UX designer, branding expert, recruiter, and senior frontend engineer.
+
+Your task is to design and build a world-class personal portfolio website that leaves a lasting impression on MBA admission committees, hiring managers, recruiters, founders, and technology leaders.
+
+This should NOT feel like a typical software engineer portfolio.
+
+Instead, it should position me as:
+
+"A Technology Leader who bridges Engineering, Artificial Intelligence, Product Thinking, Communication, and Leadership."
+
+The portfolio should immediately communicate maturity, professionalism, confidence, and attention to detail.
+
+==================================================
+PERSONAL INFORMATION
+==================================================
+
+Name:
+Janashri
+
+Title:
+Software Engineer | AI Builder | Leadership Enthusiast
+
+Tagline 1:
+Exploring the intersection of Engineering, AI and Leadership.
+
+Tagline 2: 
+Engineer by profession. AI-powered coder by passion. Leadership-driven by purpose.
+
+Experience:
+3 Years Corporate Experience
+
+Location:
+Chennai, India
+
+Email:
+njanashri@gmail.com
+
+LinkedIn:
+www.linkedin.com/in/janashri-n
+
+Resume:
+Provide Resume Download Button
+
+==================================================
+TARGET AUDIENCE
+==================================================
+
+• MBA Admissions
+• Hiring Managers
+• Recruiters
+• Startup Founders
+• Business Leaders
+• Engineers
+• Anyone visiting
+
+==================================================
+PERSONAL BRAND
+==================================================
+
+I want visitors to feel that I am:
+
+• Trustworthy
+• Professional
+• Calm
+• Intelligent
+• Strategic
+• Technically Excellent
+• People-Oriented
+• AI-Focused
+• Leadership Material
+
+I don't want to appear flashy.
+
+I want to appear premium.
+
+Imagine the branding quality of Apple, Stripe, Linear, Notion, and Vercel combined.
+
+==================================================
+OVERALL DESIGN
+==================================================
+
+Design Style:
+
+Minimal
+
+Premium
+
+Modern
+
+Elegant
+
+Timeless
+
+Luxury Corporate
+
+Lots of whitespace
+
+Excellent typography
+
+Balanced layouts
+
+Responsive
+
+Fast
+
+Accessible
+
+==================================================
+COLOR PALETTE
+==================================================
+
+Primary:
+Modern Navy  (#0F2C59)
+
+Secondary:
+Burnt coral (#E46246)
+
+Accent:
+Royal Blue
+
+Hover:
+Soft Cyan
+
+Background:
+Very Light Gray
+
+Cards:
+White with subtle shadows
+
+Borders:
+Very thin
+
+No loud colors.
+
+==================================================
+TYPOGRAPHY
+==================================================
+
+Use premium modern fonts.
+
+Large elegant headings.
+
+Readable body text.
+
+Excellent spacing.
+
+==================================================
+ANIMATIONS
+==================================================
+
+Elegant only.
+
+Use:
+
+• Smooth page transitions
+
+• Fade animations
+
+• Scroll reveal
+
+• Soft hover effects
+
+• Button micro-interactions
+
+• Animated counters
+
+• Smooth section transitions
+
+• Animated timeline
+
+Avoid:
+
+Heavy animations
+
+Excessive motion
+
+Anything distracting
+
+==================================================
+WEBSITE STRUCTURE
+==================================================
+
+1. Hero Section
+
+Large professional photograph placeholder.
+
+Large heading:
+
+Hi, I'm Jana.
+
+Exploring the intersection of Engineering, AI and Leadership.
+
+Short description.
+
+Buttons:
+
+Download Resume
+
+Background should have subtle animated gradients or abstract geometric elements.
+
+--------------------------------------------------
+
+2. About Me
+
+Professional story.
+
+"I'm a Software Engineer with 3 years of corporate experience, focused on building impactful software and continuously learning emerging technologies. My work spans full-stack development, AI-powered solutions and process automation, where I enjoy turning ideas into practical, user-focused products. Beyond technology, I believe strong communication and leadership are essential to creating meaningful impact. Through public speaking, team initiatives and leadership experiences, I've developed the ability to collaborate effectively, inspire confidence and bring people together. As I continue my journey, my goal is to bridge engineering, artificial intelligence, and leadership to build innovative solutions while growing into a technology leader who creates value for both people and businesses. "
+
+make it clean and neat
+--------------------------------------------------
+
+3. Skills
+
+Beautiful visual representation.
+
+Categories:
+
+Frontend - JavaScript, React
+
+Backend - Node.js, Express.js, Python, Flask
+
+Databases - PostgreSQL, MongoDB
+
+Dev Tools - VS Code, Postman, SonarQube
+
+AI Tools - Github Copilot, Claude Code, Ollama, Replit AI, Lovable, Zapier, n8n,
+
+Agile Tools - Jira, Mural
+
+
+Visualize skills elegantly instead of boring progress bars.
+
+==================================================
+EXPERIENCE
+==================================================
+
+Timeline Layout
+
+Company - Tata Consultancy Services (TCS)
+
+Software Engineer
+
+2023-Present
+
+Dummy achievements.
+
+Use measurable impact.
+
+==================================================
+PROJECTS
+==================================================
+
+Display 3 projects in premium cards.
+
+Each card should include:
+
+Project image placeholder
+
+Title
+
+Problem
+
+Solution
+
+Impact
+
+Technologies
+
+GitHub
+
+Live Demo
+
+Case Study Button
+
+==================================================
+LEADERSHIP
+==================================================
+
+This is one of the most important sections. here is the list 
+heading : "Leadership Beyond the Role"
+
+1. Toastmasters Leadership 
+Tagline: Area Director - Assistant Area Director - President - Vice President
+Led 10+ leadership initiatives, speech contests and officer training programs, supporting 50+ members across clubs while driving member engagement, leadership development and public speaking excellence.
+
+2. Client Visits & Town Halls
+Tagline: Executive Engagement Lead
+Coordinated 20+ leadership town halls and client visits, managing logistics, stakeholder communication, and event execution to deliver seamless experiences for executives, clients, and employees.
+
+3. Engineering Tech Talks
+Tagline: Tech Talk Lead
+Established a quarterly knowledge-sharing program by coordinating speakers, curating technical topics and managing end-to-end execution, resulting in 8+ sessions and 300+ employee participants.
+
+4. Freshers Workplace Experience
+Tagline: Engagement Lead
+Planned immersive workplace visits for 100+ graduate hires, coordinating cross-functional stakeholders to introduce company culture, engineering practices, and organizational workflows.
+
+5. Employee Engagement Programs
+Tagline: Engagement Lead
+Designed and executed 15+ engagement initiatives, cultural events, and awareness campaigns that strengthened collaboration, increased participation, and fostered an inclusive workplace culture for 500+ employees.
+
+Use icons and timeline format.
+
+==================================================
+ACHIEVEMENTS
+==================================================
+
+1. Gen AI Ideathon Winner
+Short description: Designed a multi-agent AI complaint management platform, projected to reduce support handling effort by 60% through automated ticket analysis and resolution recommendations
+
+2. Enthusiastic Award
+Short description: Managed large-scale engagement initiatives for 20,000+ participants, collaborated between stakeholders and facilitated communication training programs.
+
+3. Special Initiative Award
+Short description: Recognized for voluntarily leading 20+ employee engagement programs, coordinating 15+ volunteers and impacting 1,500+ employees through tech talks, engagement campaigns and cultural events
+
+4. On the Spot Award
+Short description: Recognized for orchestrating 15+ executive town halls and client visits, delivering seamless agendas, smooth transitions and an engaging experience for 500+ employees, executives and clients.
+
+
+==================================================
+CONTACT
+==================================================
+
+Beautiful contact section.
+
+Email
+
+LinkedIn
+
+Location
+
+==================================================
+FOOTER
+==================================================
+
+Elegant.
+
+Simple.
+
+Professional.
+
+==================================================
+TECHNICAL REQUIREMENTS
+==================================================
+
+React
+
+Next.js
+
+Tailwind CSS
+
+Framer Motion
+
+Responsive
+
+SEO Optimized
+
+Dark/Light Mode Toggle
+
+Lazy Loading
+
+Fast Performance
+
+Accessible
+
+Reusable Components
+
+Clean Code
+
+==================================================
+COPYWRITING STYLE
+==================================================
+
+Avoid clichés.
+
+Avoid buzzwords.
+
+Write like an executive.
+
+Confident but humble.
+
+Professional.
+
+Human.
+
+Memorable.
+
+==================================================
+RECRUITER EXPERIENCE
+==================================================
+
+After spending only 30 seconds on this portfolio, visitors should think:
+
+"This person has strong technical expertise, communicates exceptionally well, inspires confidence, leads people effectively, and is ready for larger responsibilities."
+
+The portfolio should make me look like someone who can become an Engineering Manager, Product Leader, or Technology Executive in the future—not just a software developer.
+
+Every section should reinforce this narrative through design, storytelling, and layout.
+
+Focus equally on engineering excellence, AI expertise, leadership, communication, business thinking, and execution.
