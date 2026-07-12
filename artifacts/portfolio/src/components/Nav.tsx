@@ -47,7 +47,7 @@ export function Nav() {
     >
       <div className="container mx-auto px-6 flex items-center justify-between">
         <a href="#" className="font-serif text-2xl font-bold tracking-tighter text-primary dark:text-foreground">
-          Janashri
+          Janashri N
         </a>
 
         {/* Desktop Nav */}

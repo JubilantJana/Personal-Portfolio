@@ -33,9 +33,6 @@ export function Hero() {
             <h2 className="text-xl md:text-2xl lg:text-3xl font-medium text-foreground/80 mb-6 max-w-2xl">
               Exploring the intersection of <br/> <span className="text-secondary">Engineering</span>, <span className="text-secondary">AI</span> and <span className="text-secondary">Leadership</span>.
             </h2>
-            <p className="text-base md:text-lg text-muted-foreground mb-10 max-w-xl mx-auto md:mx-0">
-              Engineer by profession. AI-powered coder by passion. Leadership-driven by purpose.
-            </p>
             <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4">
               <Button size="lg" className="w-full sm:w-auto rounded-full px-8 text-base h-14 bg-primary text-primary-foreground hover:bg-primary/90">
                 <a href="#">Download Resume</a>
@@ -50,7 +47,7 @@ export function Hero() {
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
-            className="flex-1 flex justify-center md:justify-end"
+            className="flex-1 flex flex-col items-center md:items-end gap-6"
           >
             <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96">
               <div className="absolute inset-0 rounded-full border border-primary/20 dark:border-white/10 scale-[1.15]" />
@@ -61,6 +58,30 @@ export function Hero() {
                 </div>
               </div>
             </div>
+
+            {/* Tagline below photo */}
+            <motion.div
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.7, delay: 0.6, ease: "easeOut" }}
+              className="flex flex-col items-center gap-2 text-center"
+            >
+              <div className="flex items-center gap-3 text-xs font-semibold uppercase tracking-[0.18em] text-muted-foreground">
+                <span className="h-px w-8 bg-secondary/60 inline-block" />
+                <span>Engineer by profession</span>
+                <span className="h-px w-8 bg-secondary/60 inline-block" />
+              </div>
+              <div className="flex items-center gap-3 text-xs font-semibold uppercase tracking-[0.18em] text-secondary">
+                <span className="h-px w-8 bg-primary/20 inline-block" />
+                <span>AI-powered coder by passion</span>
+                <span className="h-px w-8 bg-primary/20 inline-block" />
+              </div>
+              <div className="flex items-center gap-3 text-xs font-semibold uppercase tracking-[0.18em] text-muted-foreground">
+                <span className="h-px w-8 bg-secondary/60 inline-block" />
+                <span>Leadership-driven by purpose</span>
+                <span className="h-px w-8 bg-secondary/60 inline-block" />
+              </div>
+            </motion.div>
           </motion.div>
 
         </div>

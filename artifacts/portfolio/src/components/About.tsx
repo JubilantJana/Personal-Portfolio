@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 const paragraphs = [
-  "I'm a Software Engineer with 3 years of corporate experience at Tata Consultancy Services, focused on building impactful software and continuously learning emerging technologies. My work spans full-stack development, AI-powered solutions and process automation — turning ideas into practical, user-focused products.",
+  "I'm a Software Engineer with 3 years of corporate experience at Tata Consultancy Services, focused on building impactful software and continuously learning emerging technologies. My work spans full-stack development, AI-powered solutions and process automation, turning ideas into practical, user-focused products.",
   "Beyond technology, I believe strong communication and leadership are essential to creating meaningful impact. Through public speaking, team initiatives and leadership experiences, I've learned that the best products are built by people who understand both the system and the human behind it.",
 ];
 
@@ -62,7 +62,7 @@ export function About() {
         >
           <p className="text-xl font-serif font-medium text-primary dark:text-white leading-[1.7]">
             "I'm drawn to the intersection of engineering, artificial intelligence and organisational
-            leadership — and I'm actively building at that intersection every day."
+            leadership and I'm actively building at that intersection every day."
           </p>
         </motion.blockquote>
 
