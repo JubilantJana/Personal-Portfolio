@@ -4,35 +4,29 @@ import { Building2, Calendar, MapPin } from "lucide-react";
 const roles = [
   {
     title: "Associate Technical Program Manager",
-    period: "2025 – 2026",
+    period: "May 2026 – Present",
     achievements: [
-      "Owned end-to-end delivery of 4 concurrent engineering programs, coordinating 30+ cross-functional stakeholders across 3 time zones.",
-      "Reduced average project cycle time by 25% by introducing structured sprint cadences, risk registers, and dependency tracking frameworks.",
-      "Partnered with product and business teams to translate ambiguous requirements into executable roadmaps, achieving 95% on-time delivery.",
-      "Established program health dashboards adopted by senior leadership, improving visibility into delivery risk across 8 active workstreams.",
-      "Facilitated quarterly planning ceremonies and retrospectives for 5 engineering pods, driving continuous process improvement.",
+      "Supported delivery of engineering initiatives by coordinating with 15+ cross-functional stakeholders across product, engineering and business teams to ensure timely execution",
+      "Contributed to sprint planning, dependency tracking and risk management activities, helping improve delivery predictability and streamline project execution",
+      "Collaborated with product managers and engineering teams to convert business requirements into actionable tasks and executable roadmaps",
     ],
   },
   {
     title: "Full Stack Developer",
-    period: "2024 – 2025",
+    period: "Feburary 2025 – April 2026",
     achievements: [
-      "Built and shipped 2 client-facing web applications end-to-end using React and Node.js, serving 10,000+ monthly active users.",
-      "Designed RESTful API layer handling 500K+ daily requests with 99.9% uptime, backed by PostgreSQL and Redis caching.",
-      "Integrated AI-powered features — including intelligent search and recommendation modules — reducing user task completion time by 35%.",
-      "Collaborated with UX designers to implement accessible, responsive interfaces, improving mobile engagement by 48%.",
-      "Contributed to a shared component library adopted across 3 product teams, reducing front-end development time by 30%.",
+      "Reduced development effort by 30–50% by leveraging GitHub Copilot to design and develop a full-stack assessment platform, accelerating feature delivery by 40%",
+      "Accelerated assessment turnaround time from hours to minutes by integrating Gemini API to automate 100% of scoring, competency analysis and personalized growth roadmap generation, delivering instant actionable insights",
+      "Enabled seamless integration and secure data exchange across platform modules by maintaining 20+ RESTful APIs secured with JWT based authentication, supporting secure access to platform resources",
     ],
   },
   {
     title: "Backend Developer",
-    period: "2023 – 2024",
+    period: "August 2023 – January 2025",
     achievements: [
-      "Developed and maintained 15+ RESTful microservices in Python and Node.js, powering core business workflows for enterprise clients.",
-      "Optimised critical database queries reducing average API response time from 1.8s to 340ms across high-traffic endpoints.",
-      "Automated a multi-step data ingestion pipeline, eliminating 12 hours of weekly manual processing and reducing error rate by 90%.",
-      "Wrote comprehensive unit and integration test suites achieving 85% code coverage, significantly reducing production incidents.",
-      "Mentored 3 junior engineers on backend architecture best practices, code review discipline, and performance profiling techniques.",
+      "Developed and maintained 15+ RESTful APIs in Node.js, powering core business workflows for enterprise clients",
+      "Optimised critical database queries reducing average API response time from 1.8s to 340ms across high-traffic endpoints",
+      "Automated a multi-step data ingestion pipeline, eliminating 12 hours of weekly manual processing and reducing error rate by 90%",
     ],
   },
 ];
@@ -57,7 +51,8 @@ export function Experience() {
             <span className="flex items-center gap-1.5 text-base font-semibold text-primary dark:text-white">
               <Building2 className="w-4 h-4 text-secondary" />
               Tata Consultancy Services (TCS)
-            </span>
+            </span> 
+            
             <span className="flex items-center gap-1.5">
               <MapPin className="w-4 h-4" /> Chennai, India
             </span>
