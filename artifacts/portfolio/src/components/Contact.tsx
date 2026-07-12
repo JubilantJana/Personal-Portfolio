@@ -17,13 +17,13 @@ export function Contact() {
           </h2>
           
           <p className="text-lg md:text-xl text-muted-foreground font-light mb-12 max-w-2xl mx-auto leading-relaxed">
-            Open to MBA admissions conversations, leadership opportunities, and interesting problems worth solving.
+            Open to discussions, opportunities and a heartfelt conversation. <br/> Let's connect!
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-16">
             <Button size="lg" className="rounded-full w-full sm:w-auto h-14 px-8 text-base gap-2 bg-primary text-primary-foreground hover:bg-primary/90">
               <Mail className="w-5 h-5" />
-              <a href="mailto:njanashri@gmail.com">njanashri@gmail.com</a>
+              <a href="mailto:njanashri@gmail.com">Contact me</a>
             </Button>
             <Button size="lg" variant="outline" className="rounded-full w-full sm:w-auto h-14 px-8 text-base gap-2 border-border hover:bg-accent hover:text-primary">
               <Linkedin className="w-5 h-5" />
@@ -33,7 +33,7 @@ export function Contact() {
 
           <div className="inline-flex items-center gap-2 text-muted-foreground text-sm font-medium bg-muted px-4 py-2 rounded-full">
             <MapPin className="w-4 h-4 text-secondary" />
-            Based in Chennai, India
+            Chennai, India
           </div>
         </motion.div>
       </div>

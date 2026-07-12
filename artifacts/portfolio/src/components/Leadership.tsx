@@ -4,32 +4,32 @@ import { Mic, Users, Presentation, UserPlus, HeartHandshake } from "lucide-react
 const leadership = [
   {
     title: "Toastmasters Leadership",
-    tagline: "Area Director · Asst. Area Director · President · VP",
-    description: "Led 10+ leadership initiatives, speech contests, and officer training programs, supporting 50+ members across clubs while driving member engagement, leadership development, and public speaking excellence.",
+    tagline: "Area Director · Assistant Area Director · President · Vice President",
+    description: "Led 10+ leadership initiatives, speech contests and officer training programs, supporting 50+ members across clubs while driving member engagement, leadership development and public speaking excellence.",
     icon: <Mic className="w-6 h-6 text-primary dark:text-white" />
   },
   {
     title: "Client Visits & Town Halls",
     tagline: "Executive Engagement Lead",
-    description: "Coordinated 20+ leadership town halls and client visits, managing logistics, stakeholder communication, and event execution to deliver seamless experiences for executives, clients, and employees.",
+    description: "Coordinated 20+ leadership town halls and client visits, managing stakeholder communication and event execution to deliver seamless experiences for executives, clients and employees.",
     icon: <Users className="w-6 h-6 text-primary dark:text-white" />
   },
   {
     title: "Engineering Tech Talks",
     tagline: "Tech Talk Lead",
-    description: "Established a quarterly knowledge-sharing program by coordinating speakers, curating technical topics, and managing end-to-end execution — resulting in 8+ sessions and 300+ employee participants.",
+    description: "Established a quarterly knowledge-sharing program by coordinating speakers, curating technical topics and managing end-to-end execution — resulting in 300+ employee participants.",
     icon: <Presentation className="w-6 h-6 text-primary dark:text-white" />
   },
   {
     title: "Freshers Workplace Experience",
     tagline: "Engagement Lead",
-    description: "Planned immersive workplace visits for 100+ graduate hires, coordinating cross-functional stakeholders to introduce company culture, engineering practices, and organizational workflows.",
+    description: "Planned immersive workplace visits for 100+ graduate hires, coordinating cross-functional stakeholders to introduce company culture, engineering practices and organizational workflows.",
     icon: <UserPlus className="w-6 h-6 text-primary dark:text-white" />
   },
   {
     title: "Employee Engagement Programs",
     tagline: "Engagement Lead",
-    description: "Designed and executed 15+ engagement initiatives, cultural events, and awareness campaigns that strengthened collaboration, increased participation, and fostered an inclusive workplace culture for 500+ employees.",
+    description: "Designed and executed 15+ engagement initiatives, cultural events and awareness campaigns that strengthened collaboration, increased participation and fostered an inclusive workplace culture for 500+ employees.",
     icon: <HeartHandshake className="w-6 h-6 text-primary dark:text-white" />
   }
 ];

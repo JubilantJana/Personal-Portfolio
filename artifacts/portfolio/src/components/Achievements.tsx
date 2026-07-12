@@ -14,12 +14,12 @@ const achievements = [
   },
   {
     title: "Special Initiative Award",
-    desc: "Recognized for voluntarily leading 20+ employee engagement programs, coordinating 15+ volunteers and impacting 1,500+ employees through tech talks, engagement campaigns, and cultural events.",
+    desc: "Recognized for voluntarily leading 20+ employee engagement programs, coordinating 15+ volunteers and impacting 1,500+ employees through tech talks, engagement campaigns and cultural events.",
     icon: Award
   },
   {
     title: "On the Spot Award",
-    desc: "Recognized for orchestrating 15+ executive town halls and client visits, delivering seamless agendas, smooth transitions, and an engaging experience for 500+ employees, executives, and clients.",
+    desc: "Awarded for orchestrating 15+ executive townhalls and client visits, delivering an engaging experience for 500+ employees, executives and clients.",
     icon: Medal
   }
 ];
@@ -29,7 +29,7 @@ export function Achievements() {
     <section id="achievements" className="py-24 bg-background">
       <div className="container mx-auto px-6 max-w-6xl">
         <div className="flex items-center gap-4 mb-16">
-          <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground">Recognition</h2>
+          <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground">Recognitions</h2>
           <div className="h-px bg-border flex-1 ml-4" />
         </div>
 

@@ -28,13 +28,13 @@ export function Hero() {
             className="flex-1 text-center md:text-left"
           >
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-bold text-primary dark:text-foreground mb-6 leading-tight">
-              Hi, I'm Jana.
+              Hi, <br/> I'm Jana.
             </h1>
             <h2 className="text-xl md:text-2xl lg:text-3xl font-medium text-foreground/80 mb-6 max-w-2xl">
-              Exploring the intersection of <span className="text-secondary">Engineering</span>, <span className="text-secondary">AI</span> and <span className="text-secondary">Leadership</span>.
+              Exploring the intersection of <br/> <span className="text-secondary">Engineering</span>, <span className="text-secondary">AI</span> and <span className="text-secondary">Leadership</span>.
             </h2>
             <p className="text-base md:text-lg text-muted-foreground mb-10 max-w-xl mx-auto md:mx-0">
-              Software Engineer at TCS &middot; 3 years building impactful products &middot; Chennai, India
+              Engineer by profession. AI-powered coder by passion. Leadership-driven by purpose.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4">
               <Button size="lg" className="w-full sm:w-auto rounded-full px-8 text-base h-14 bg-primary text-primary-foreground hover:bg-primary/90">
