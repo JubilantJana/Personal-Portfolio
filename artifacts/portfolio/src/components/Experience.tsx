@@ -1,6 +1,42 @@
 import { motion } from "framer-motion";
 import { Building2, Calendar, MapPin } from "lucide-react";
 
+const roles = [
+  {
+    title: "Associate Technical Program Manager",
+    period: "2025 – 2026",
+    achievements: [
+      "Owned end-to-end delivery of 4 concurrent engineering programs, coordinating 30+ cross-functional stakeholders across 3 time zones.",
+      "Reduced average project cycle time by 25% by introducing structured sprint cadences, risk registers, and dependency tracking frameworks.",
+      "Partnered with product and business teams to translate ambiguous requirements into executable roadmaps, achieving 95% on-time delivery.",
+      "Established program health dashboards adopted by senior leadership, improving visibility into delivery risk across 8 active workstreams.",
+      "Facilitated quarterly planning ceremonies and retrospectives for 5 engineering pods, driving continuous process improvement.",
+    ],
+  },
+  {
+    title: "Full Stack Developer",
+    period: "2024 – 2025",
+    achievements: [
+      "Built and shipped 2 client-facing web applications end-to-end using React and Node.js, serving 10,000+ monthly active users.",
+      "Designed RESTful API layer handling 500K+ daily requests with 99.9% uptime, backed by PostgreSQL and Redis caching.",
+      "Integrated AI-powered features — including intelligent search and recommendation modules — reducing user task completion time by 35%.",
+      "Collaborated with UX designers to implement accessible, responsive interfaces, improving mobile engagement by 48%.",
+      "Contributed to a shared component library adopted across 3 product teams, reducing front-end development time by 30%.",
+    ],
+  },
+  {
+    title: "Backend Developer",
+    period: "2023 – 2024",
+    achievements: [
+      "Developed and maintained 15+ RESTful microservices in Python and Node.js, powering core business workflows for enterprise clients.",
+      "Optimised critical database queries reducing average API response time from 1.8s to 340ms across high-traffic endpoints.",
+      "Automated a multi-step data ingestion pipeline, eliminating 12 hours of weekly manual processing and reducing error rate by 90%.",
+      "Wrote comprehensive unit and integration test suites achieving 85% code coverage, significantly reducing production incidents.",
+      "Mentored 3 junior engineers on backend architecture best practices, code review discipline, and performance profiling techniques.",
+    ],
+  },
+];
+
 export function Experience() {
   return (
     <section id="experience" className="py-24 bg-white dark:bg-card/30 border-y border-border/40">
@@ -16,38 +52,50 @@ export function Experience() {
             <div className="h-px bg-border flex-1 ml-4" />
           </div>
 
-          <div className="relative pl-8 border-l border-primary/20 dark:border-border/50 ml-4">
-            {/* Timeline Dot */}
-            <div className="absolute top-0 -left-[5px] w-2.5 h-2.5 rounded-full bg-secondary ring-4 ring-background" />
+          {/* Company header */}
+          <div className="flex flex-wrap items-center gap-4 mb-10 text-sm text-muted-foreground font-medium">
+            <span className="flex items-center gap-1.5 text-base font-semibold text-primary dark:text-white">
+              <Building2 className="w-4 h-4 text-secondary" />
+              Tata Consultancy Services (TCS)
+            </span>
+            <span className="flex items-center gap-1.5">
+              <MapPin className="w-4 h-4" /> Chennai, India
+            </span>
+          </div>
 
-            <div className="mb-2">
-              <h3 className="text-2xl font-serif font-bold text-primary dark:text-white">Software Engineer</h3>
-              <div className="flex flex-wrap gap-4 mt-2 text-sm text-muted-foreground font-medium">
-                <span className="flex items-center gap-1"><Building2 className="w-4 h-4" /> Tata Consultancy Services (TCS)</span>
-                <span className="flex items-center gap-1"><Calendar className="w-4 h-4" /> 2023 – Present</span>
-                <span className="flex items-center gap-1"><MapPin className="w-4 h-4" /> Chennai, India</span>
-              </div>
-            </div>
+          {/* Timeline */}
+          <div className="relative pl-8 border-l border-primary/20 dark:border-border/50 ml-4 space-y-14">
+            {roles.map((role, index) => (
+              <motion.div
+                key={role.title}
+                initial={{ opacity: 0, x: -16 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: index * 0.12 }}
+                className="relative"
+              >
+                {/* Timeline dot */}
+                <div className="absolute -left-[37px] top-1.5 w-2.5 h-2.5 rounded-full bg-secondary ring-4 ring-background" />
 
-            <div className="mt-8 space-y-4 text-foreground/80 leading-relaxed font-light">
-              <ul className="space-y-3">
-                <li className="relative pl-5 before:content-[''] before:absolute before:left-0 before:top-2.5 before:w-1.5 before:h-1.5 before:bg-primary/40 before:rounded-full">
-                  Delivered a full-stack automation platform reducing manual processing time by 40%, serving 200+ internal users.
-                </li>
-                <li className="relative pl-5 before:content-[''] before:absolute before:left-0 before:top-2.5 before:w-1.5 before:h-1.5 before:bg-primary/40 before:rounded-full">
-                  Built AI-powered document analysis pipeline using Python and LLM integrations, cutting review cycle from 3 days to 4 hours.
-                </li>
-                <li className="relative pl-5 before:content-[''] before:absolute before:left-0 before:top-2.5 before:w-1.5 before:h-1.5 before:bg-primary/40 before:rounded-full">
-                  Led cross-functional team of 8 engineers in migrating legacy monolith to microservices, improving deployment frequency by 60%.
-                </li>
-                <li className="relative pl-5 before:content-[''] before:absolute before:left-0 before:top-2.5 before:w-1.5 before:h-1.5 before:bg-primary/40 before:rounded-full">
-                  Designed and shipped 3 internal developer tools adopted across 500+ engineers globally.
-                </li>
-                <li className="relative pl-5 before:content-[''] before:absolute before:left-0 before:top-2.5 before:w-1.5 before:h-1.5 before:bg-primary/40 before:rounded-full">
-                  Mentored 6 junior engineers through structured onboarding programs and weekly technical sessions.
-                </li>
-              </ul>
-            </div>
+                <div className="mb-4">
+                  <h3 className="text-xl font-serif font-bold text-primary dark:text-white">{role.title}</h3>
+                  <span className="inline-flex items-center gap-1.5 mt-1.5 text-sm text-muted-foreground font-medium">
+                    <Calendar className="w-3.5 h-3.5" /> {role.period}
+                  </span>
+                </div>
+
+                <ul className="space-y-3 text-foreground/80 leading-relaxed font-light">
+                  {role.achievements.map((item, i) => (
+                    <li
+                      key={i}
+                      className="relative pl-5 before:content-[''] before:absolute before:left-0 before:top-2.5 before:w-1.5 before:h-1.5 before:bg-primary/40 before:rounded-full"
+                    >
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              </motion.div>
+            ))}
           </div>
         </motion.div>
       </div>
