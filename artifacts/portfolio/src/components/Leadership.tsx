@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Mic, Users, Presentation, UserPlus, HeartHandshake, ChevronDown } from "lucide-react";
+import { Mic, Users, Presentation, UserPlus, HeartHandshake, ChevronDown, MicVocal } from "lucide-react";
 
 const leadership = [
   {
@@ -8,6 +8,12 @@ const leadership = [
     tagline: "Area Director · Assistant Area Director · President · Vice President",
     description: "Led 10+ leadership initiatives, speech contests and officer training programs, supporting 50+ members across clubs while driving member engagement, leadership development and public speaking excellence.",
     icon: Mic,
+  },
+  {
+    title: "Clarion 2k26 Speech Contest",
+    tagline: "Organizer",
+    description: "Led a team of 6 members to plan and execute a speech contest attracting 50+ participants across 2 competitive rounds. Enabled participants to develop public speaking skills and improve confidence by creating a supportive platform to step outside their comfort zones.",
+    icon: MicVocal,
   },
   {
     title: "Client Visits & Town Halls",
