@@ -19,18 +19,18 @@ export function Hero() {
       </div>
 
       <div className="container mx-auto px-6 relative z-10">
-        <div className="flex flex-col md:flex-row items-center justify-between gap-12 lg:gap-24">
+        <div className="flex flex-col md:flex-row items-center justify-center gap-12 lg:gap-16 max-w-3xl mx-auto">
           
           <motion.div 
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
-            className="flex-1 text-center md:text-left"
+            className="flex-1 text-center md:text-left min-w-0"
           >
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-bold text-primary dark:text-foreground mb-6 leading-tight">
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-serif font-bold text-primary dark:text-foreground mb-5 leading-tight">
               Hi, <br/> I'm Jana.
             </h1>
-            <h2 className="text-xl md:text-2xl lg:text-3xl font-medium text-foreground/80 mb-6 max-w-2xl">
+            <h2 className="text-lg md:text-xl font-medium text-foreground/80 mb-8">
               Exploring the intersection of <br/> <span className="text-secondary">Engineering</span>, <span className="text-secondary">AI</span> and <span className="text-secondary">Leadership</span>.
             </h2>
             <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4">
@@ -47,9 +47,9 @@ export function Hero() {
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
-            className="flex-1 flex flex-col items-center md:items-end gap-6"
+            className="flex-shrink-0 flex flex-col items-center gap-6"
           >
-            <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96">
+            <div className="relative w-56 h-56 md:w-64 md:h-64 lg:w-72 lg:h-72">
               <div className="absolute inset-0 rounded-full border border-primary/20 dark:border-white/10 scale-[1.15]" />
               <div className="absolute inset-0 rounded-full border border-secondary/30 scale-[1.07]" />
               <div className="absolute inset-0 rounded-full overflow-hidden shadow-xl p-2">
