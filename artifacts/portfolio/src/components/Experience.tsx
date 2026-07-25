@@ -2,15 +2,15 @@ import { motion } from "framer-motion";
 import { Building2, Calendar, MapPin } from "lucide-react";
 
 const roles = [
-  {
-    title: "Associate Technical Program Manager",
-    period: "May 2026 – Present",
-    achievements: [
-      "Supported delivery of engineering initiatives by coordinating with 15+ cross-functional stakeholders across product, engineering and business teams to ensure timely execution",
-      "Contributed to sprint planning, dependency tracking and risk management activities, helping improve delivery predictability and streamline project execution",
-      "Collaborated with product managers and engineering teams to convert business requirements into actionable tasks and executable roadmaps",
-    ],
-  },
+  // {
+  //   title: "Associate Technical Program Manager",
+  //   period: "May 2026 – Present",
+  //   achievements: [
+  //     "Supported delivery of engineering initiatives by coordinating with 15+ cross-functional stakeholders across product, engineering and business teams to ensure timely execution",
+  //     "Contributed to sprint planning, dependency tracking and risk management activities, helping improve delivery predictability and streamline project execution",
+  //     "Collaborated with product managers and engineering teams to convert business requirements into actionable tasks and executable roadmaps",
+  //   ],
+  // },
   {
     title: "Full Stack Developer",
     period: "Feburary 2025 – April 2026",

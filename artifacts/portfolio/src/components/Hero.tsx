@@ -37,9 +37,9 @@ export function Hero() {
               <Button size="lg" className="w-full sm:w-auto rounded-full px-8 text-base h-14 bg-primary text-primary-foreground hover:bg-primary/90">
                 <a href="#">Download Resume</a>
               </Button>
-              <Button size="lg" variant="outline" className="w-full sm:w-auto rounded-full px-8 text-base h-14 border-primary/20 hover:bg-accent hover:text-primary dark:border-border dark:hover:bg-accent">
+              {/* <Button size="lg" variant="outline" className="w-full sm:w-auto rounded-full px-8 text-base h-14 border-primary/20 hover:bg-accent hover:text-primary dark:border-border dark:hover:bg-accent">
                 <a href="#projects">View Work</a>
-              </Button>
+              </Button> */}
             </div>
           </motion.div>
 

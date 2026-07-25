@@ -31,7 +31,7 @@ export function Nav() {
     { name: "About", href: "#about" },
     { name: "Skills", href: "#skills" },
     { name: "Experience", href: "#experience" },
-    { name: "Projects", href: "#projects" },
+    // { name: "Projects", href: "#projects" },
     { name: "Leadership", href: "#leadership" },
     { name: "Achievements", href: "#achievements" },
     { name: "Contact", href: "#contact" },
