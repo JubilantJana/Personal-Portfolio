@@ -60,7 +60,7 @@ const leadership = [
 
 export function Leadership() {
   return (
-    <section id="leadership" className="py-24 bg-primary text-primary-foreground dark:bg-card/50 dark:text-foreground">
+    <section id="leadership" className="py-24 bg-muted/40 dark:bg-card/50 text-foreground">
       <div className="container mx-auto px-6 max-w-6xl">
 
         {/* Header */}
@@ -75,11 +75,11 @@ export function Leadership() {
             Impact · Influence · Initiative
           </p>
           <div className="flex items-end gap-6">
-            <h2 className="text-3xl md:text-5xl font-serif font-bold leading-tight">
+            <h2 className="text-3xl md:text-5xl font-serif font-bold leading-tight text-primary dark:text-foreground">
               Leadership<br className="hidden md:block" /> Beyond the Role
             </h2>
-            <div className="hidden md:block h-px bg-white/15 dark:bg-border flex-1 mb-3" />
-            <span className="hidden md:block mb-3 shrink-0 text-xs font-mono text-white/30 dark:text-muted-foreground">
+            <div className="hidden md:block h-px bg-border flex-1 mb-3" />
+            <span className="hidden md:block mb-3 shrink-0 text-xs font-mono text-muted-foreground">
               {leadership.length} initiatives
             </span>
           </div>
@@ -97,14 +97,14 @@ export function Leadership() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.45, delay: index * 0.07 }}
                 whileHover={{ y: -4, transition: { duration: 0.2 } }}
-                className="group relative rounded-2xl bg-white/5 dark:bg-background/60 border border-white/10 dark:border-border hover:border-secondary/40 dark:hover:border-secondary/40 p-6 flex flex-col gap-4 cursor-default transition-colors duration-300 overflow-hidden"
+                className="group relative rounded-2xl bg-white dark:bg-background/60 border border-border hover:border-secondary/40 p-6 flex flex-col gap-4 cursor-default transition-colors duration-300 overflow-hidden shadow-sm hover:shadow-md"
               >
                 {/* Subtle gradient blob */}
                 <div className={`absolute inset-0 bg-gradient-to-br ${item.accent} opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-2xl`} />
 
                 {/* Top row: number + icon */}
                 <div className="relative flex items-center justify-between">
-                  <span className="text-[11px] font-mono font-semibold text-white/20 dark:text-muted-foreground/50">
+                  <span className="text-[11px] font-mono font-semibold text-muted-foreground/50">
                     {String(index + 1).padStart(2, "0")}
                   </span>
                   <div className={`w-10 h-10 rounded-xl ${item.iconBg} flex items-center justify-center`}>
@@ -114,7 +114,7 @@ export function Leadership() {
 
                 {/* Title */}
                 <div className="relative">
-                  <h3 className="font-serif font-bold text-lg leading-snug text-white dark:text-foreground group-hover:text-secondary transition-colors duration-300">
+                  <h3 className="font-serif font-bold text-lg leading-snug text-primary dark:text-foreground group-hover:text-secondary transition-colors duration-300">
                     {item.title}
                   </h3>
                   <p className="text-[11px] font-semibold uppercase tracking-wide text-secondary/70 dark:text-secondary mt-1">
@@ -126,7 +126,7 @@ export function Leadership() {
                 <div className="relative h-px bg-white/10 dark:bg-border" />
 
                 {/* Description */}
-                <p className="relative text-sm text-white/60 dark:text-foreground/60 leading-relaxed font-light flex-1">
+                <p className="relative text-sm text-foreground/60 leading-relaxed font-light flex-1">
                   {item.description}
                 </p>
               </motion.div>
