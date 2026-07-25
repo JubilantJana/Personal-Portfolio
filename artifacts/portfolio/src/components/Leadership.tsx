@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
-import { Mic, Users, Presentation, UserPlus, HeartHandshake, MicVocal } from "lucide-react";
+import { Mic, Users, Presentation, UserPlus, HeartHandshake, MicVocal, AudioLines, ExternalLink } from "lucide-react";
 
 const leadership = [
   {
     title: "Toastmasters Leadership",
-    tagline: "Area Director · Asst. Area Director · President · VP",
+    tagline: "Area Director - Asst. AD - President - VP",
     description:
       "Led 10+ leadership initiatives, speech contests and officer training programs, supporting 50+ members across clubs — driving engagement, leadership development and public speaking excellence.",
     icon: Mic,
@@ -19,6 +19,16 @@ const leadership = [
     icon: MicVocal,
     accent: "from-primary/20 to-primary/5",
     iconBg: "bg-primary/15",
+  },
+  {
+    title: "Voices that Inspire",
+    tagline: "TCS ILP",
+    description:
+      "Selected as one of three employees to represent the organization in an official careers video, highlighting the early-career experience, featured on the TCS Careers website and showcased during campus recruitment campaigns.",
+    icon: AudioLines,
+    accent: "from-primary/20 to-primary/5",
+    iconBg: "bg-primary/15",
+    link: "https://your-link-here.com",
   },
   {
     title: "Client Visits & Town Halls",
@@ -129,6 +139,20 @@ export function Leadership() {
                 <p className="relative text-sm text-foreground/60 leading-relaxed font-light flex-1">
                   {item.description}
                 </p>
+
+                {/* Optional link */}
+                {item.link && (
+                  <a
+                    href={item.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="relative inline-flex items-center gap-1.5 text-xs font-semibold text-secondary hover:text-secondary/80 transition-colors mt-1 w-fit"
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    <ExternalLink className="w-3.5 h-3.5" />
+                    View link
+                  </a>
+                )}
               </motion.div>
             );
           })}
