@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { Mail, Linkedin, MapPin } from "lucide-react";
+import { Mail, Linkedin, MapPin, Github } from "lucide-react";
 
 export function Contact() {
   return (
@@ -28,6 +28,10 @@ export function Contact() {
             <Button size="lg" variant="outline" className="rounded-full w-full sm:w-auto h-14 px-8 text-base gap-2 border-border hover:bg-accent hover:text-primary">
               <Linkedin className="w-5 h-5" />
               <a href="https://www.linkedin.com/in/janashri-n" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
+            </Button>
+            <Button size="lg" variant="outline" className="rounded-full w-full sm:w-auto h-14 px-8 text-base gap-2 border-border hover:bg-accent hover:text-primary">
+              <Github className="w-5 h-5" />
+              <a href="https://github.com/JubilantJana" target="_blank" rel="noopener noreferrer">Github Profile</a>
             </Button>
           </div>
 
