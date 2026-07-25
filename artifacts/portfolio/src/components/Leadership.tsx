@@ -28,7 +28,7 @@ const leadership = [
     icon: AudioLines,
     accent: "from-primary/20 to-primary/5",
     iconBg: "bg-primary/15",
-    link: "https://your-link-here.com",
+    link: "https://www.tcs.com/careers/india/tcs-initial-learning-program#:~:text=Voices%20that%20inspire",
   },
   {
     title: "Client Visits & Town Halls",
@@ -86,12 +86,12 @@ export function Leadership() {
           </p>
           <div className="flex items-end gap-6">
             <h2 className="text-3xl md:text-5xl font-serif font-bold leading-tight text-primary dark:text-foreground">
-              Leadership<br className="hidden md:block" /> Beyond the Role
+              Ownership Beyond Scope
             </h2>
             <div className="hidden md:block h-px bg-border flex-1 mb-3" />
-            <span className="hidden md:block mb-3 shrink-0 text-xs font-mono text-muted-foreground">
+            {/* <span className="hidden md:block mb-3 shrink-0 text-xs font-mono text-muted-foreground">
               {leadership.length} initiatives
-            </span>
+            </span> */}
           </div>
         </motion.div>
 
@@ -150,7 +150,7 @@ export function Leadership() {
                     onClick={(e) => e.stopPropagation()}
                   >
                     <ExternalLink className="w-3.5 h-3.5" />
-                    View link
+                    View Careers Page
                   </a>
                 )}
               </motion.div>
